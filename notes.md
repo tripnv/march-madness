@@ -4,12 +4,9 @@
 
     - Given a team's regular season performance, try to predict their post-season..
 
-
 #### IDEAs:
 
-* Coaches
-
-- For coaches, introduce a column how many times a given coach won the tournament in retrospect
+- For coaches, introduce a column how many times a given coach won the tournament in retrospect; regular season win ratio, post-season win ratio
 - Similarly, provide the win/loss ratio up to that point (retrospective win/loss ratio).
 
 * Average stats for a given year (e.g scored points/that years average)
@@ -17,17 +14,17 @@
 * How do we incorporate competition experience? Maybe, how far did they get last year, given their competition seed?
 * Matchup record: if two teams have played in the regular season: extract their records
 * Altitude difference between cities?
-* opponent from the same conference?
+* Opponent from the same conference?
 
 - The regular season record might be more relevant in this case
-
+- last year rank? regular season and post-season
 
 #### What do we know about March Madness?
 
 * Since it is a bracket style competition, not necessarily the better team progresses (one game and you're out)
-
 * Yet, some "franchises" are more successful than others (e.g. Coach K)
 * The player pool completely changes every 3-4 years
+* For a star athlete 2 seasons are compulsory in the NCAA
 
 #### What do we know about basketball, in general?
 
